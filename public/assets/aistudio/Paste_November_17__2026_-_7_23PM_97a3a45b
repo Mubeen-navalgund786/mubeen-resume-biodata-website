@@ -1,0 +1,1384 @@
+# MASTER PROJECT PROMPT
+# MUBEEN NAVALGUND – PREMIUM PERSONAL PORTFOLIO, PROFESSIONAL RESUME & BIO-DATA WEBSITE
+
+## 1. YOUR ROLE
+
+Act as an expert UI/UX designer, creative director, senior frontend developer, CSS specialist and responsive web designer.
+
+Your task is to DESIGN, DEVELOP AND IMPLEMENT a complete, premium-quality personal portfolio website for Mubeen Navalgund.
+
+I already have an existing website project created using Google AI Studio, and I have pushed the project to GitHub.
+
+I want you to improve the existing project and transform it into a beautiful, professional and fully responsive website.
+
+This is not just a basic resume website.
+
+It must look like a professionally designed personal portfolio that I can proudly share with recruiters, interviewers, college faculty and friends.
+
+IMPORTANT IMPLEMENTATION RULES:
+
+1. First inspect my complete existing project and its file structure.
+2. Understand which framework and technologies are currently used.
+3. Modify the existing files instead of creating duplicate projects.
+4. Preserve working functionality.
+5. Do not unnecessarily replace my existing framework.
+6. Do not remove my personal information.
+7. Implement the complete website, not just a design demonstration.
+8. Make every navigation link and button functional.
+9. Test all pages before completing the work.
+10. Do not just explain what to do. Actually implement the changes.
+
+==================================================
+2. WEBSITE IDENTITY
+==================================================
+
+Website Name:
+
+Mubeen Navalgund – Personal Portfolio
+
+Website Logo:
+
+MUBEEN.
+
+Main Identity:
+
+Mubeen Navalgund
+
+Professional Description:
+
+B.E. Computer Science and Engineering Student | 3rd Year
+
+Website Purpose:
+
+A personal portfolio website containing:
+
+1. Home Page
+2. Professional Resume
+3. Personal Bio-data
+
+The website must introduce me professionally and allow visitors to view my Resume and Bio-data separately.
+
+IMPORTANT CONTENT SEPARATION:
+
+Resume and Bio-data are TWO DIFFERENT DOCUMENTS.
+
+They must have separate pages, separate content and separate print functionality.
+
+Never combine the two documents.
+
+==================================================
+3. COMPLETE PERSONAL INFORMATION
+==================================================
+
+Use these details accurately.
+
+FULL NAME:
+Mubeen Navalgund
+
+DATE OF BIRTH:
+07 August 2005
+
+GENDER:
+Female
+
+NATIONALITY:
+Indian
+
+LANGUAGES KNOWN:
+English, Hindi, Kannada
+
+CURRENT QUALIFICATION:
+B.E. Computer Science and Engineering (Pursuing)
+
+CURRENT YEAR:
+3rd Year
+
+COLLEGE:
+Jain College of Engineering & Technology
+
+LOCATION:
+Dharwad, Karnataka, India
+
+FULL ADDRESS:
+Uppin Betageri, Taluk Dharwad, Karnataka
+
+EMAIL:
+navalgundmubeen@gmail.com
+
+PHONE:
+7349850601
+
+PLACE:
+Dharwad
+
+EDUCATIONAL INFORMATION:
+
+B.E. COMPUTER SCIENCE AND ENGINEERING
+Institution: Jain College of Engineering & Technology
+Status: Currently Pursuing
+Current Year: 3rd Year
+CGPA: 8.9
+
+PUC
+Institution: Kittle College
+Status: Completed
+Percentage: 90%
+
+SSLC
+Institution: S.G.R.V. School
+Status: Completed
+Percentage: 96%
+
+TECHNICAL SKILLS:
+
+Programming Languages:
+- C
+- C++
+- Python
+- Java
+
+Web Technologies:
+- HTML
+- CSS
+
+Additional Technical Knowledge:
+- Data Structures and Algorithms (DSA)
+- MS Excel
+
+PROJECTS:
+
+PROJECT 1:
+Scheme Saathi – Government Schemes and Services Assistant.
+
+Description:
+A web-based assistant designed to help users discover Indian government schemes and services, understand scheme information and explore relevant eligibility and application details.
+
+PROJECT 2:
+Event Management System.
+
+Description:
+A software project focused on organizing event-related information and managing event activities.
+
+HOBBIES:
+
+- Reading
+- Sports
+- Programming
+- Listening to Music
+
+IMPORTANT:
+Do not invent internships, employment history, certifications, awards, graduation dates, achievements or additional qualifications.
+
+Do not invent skill percentages or claim expert-level proficiency.
+
+Use only the provided information.
+
+==================================================
+4. COMPLETE UI/UX DESIGN DIRECTION
+==================================================
+
+Create a premium, elegant, modern and minimalist personal portfolio.
+
+DESIGN INSPIRATION:
+
+- High-end personal portfolio websites.
+- Modern editorial website layouts.
+- Premium student portfolio designs.
+- Elegant university graduate portfolios.
+- Clean professional websites.
+
+The website should communicate:
+
+- Confidence.
+- Professionalism.
+- Simplicity.
+- Creativity.
+- Technical interest.
+- Attention to detail.
+
+It should not look like a generic template or an ordinary college assignment.
+
+VISUAL STYLE:
+
+Premium Minimalism + Editorial Typography + Modern Professional Layout.
+
+Use:
+
+- Large elegant typography.
+- Beautiful white space.
+- Balanced layouts.
+- Clean alignment.
+- Attractive cards.
+- Subtle borders.
+- Soft shadows.
+- Modern navigation.
+- Consistent spacing.
+- Professional icons.
+- Smooth interactions.
+
+Avoid:
+
+- Excessive gradients.
+- Random colorful backgrounds.
+- Too many cards.
+- Excessive animations.
+- Unnecessary decorative icons.
+- Cluttered sections.
+- Overcrowded text.
+- Oversized buttons.
+- Unnecessary graphical elements.
+
+==================================================
+5. COMPLETE COLOR PALETTE
+==================================================
+
+Use LIGHT THEME WITH NAVY BLUE.
+
+This is a strict requirement.
+
+PRIMARY NAVY:
+#142D4E
+
+DEEP NAVY:
+#10243D
+
+SECONDARY NAVY:
+#1D3C63
+
+ACCENT BLUE:
+#365F91
+
+MUTED BLUE:
+#6D89A6
+
+LIGHT BLUE:
+#EAF0F6
+
+HERO BACKGROUND:
+#F3F6F8
+
+SECTION BACKGROUND:
+#F7F9FB
+
+PURE WHITE:
+#FFFFFF
+
+PRIMARY TEXT:
+#202C3B
+
+SECONDARY TEXT:
+#687584
+
+MUTED TEXT:
+#8995A3
+
+BORDER:
+#E1E7ED
+
+SUBTLE GOLD ACCENT:
+#B99B68
+
+COLOR USAGE:
+
+- Main backgrounds: White.
+- Hero background: Very light grey-blue.
+- Section backgrounds: White and subtle light grey-blue.
+- Primary buttons: Navy blue.
+- Main headings: Deep navy.
+- Highlighted text: Navy blue.
+- Paragraphs: Dark grey.
+- Cards: White with subtle shadows.
+- Borders: Light grey.
+- Icons: Navy and muted blue.
+
+Maintain visual balance.
+
+Approximately:
+70% white and neutral colors.
+20% navy and dark text.
+10% blue accents.
+
+Do not use a dark theme.
+
+Do not use black full-screen backgrounds.
+
+==================================================
+6. TYPOGRAPHY SYSTEM
+==================================================
+
+Use professional typography.
+
+Suggested Google Fonts:
+
+1. Playfair Display – Main headings and name.
+2. Inter – Body text and descriptions.
+3. Poppins – Buttons and small labels.
+
+Use the following typography hierarchy:
+
+Hero name:
+Large serif typography.
+
+Page headings:
+Elegant serif typography.
+
+Section headings:
+Medium-sized bold headings.
+
+Body:
+Comfortable sans-serif typography.
+
+Small labels:
+Uppercase text with letter spacing.
+
+Navigation:
+Clean medium-weight sans-serif.
+
+Use CSS clamp() for responsive font sizing.
+
+Ensure readability on mobile devices.
+
+==================================================
+7. GLOBAL NAVIGATION BAR
+==================================================
+
+Create a beautiful navigation bar used consistently across all three pages.
+
+LEFT SIDE:
+
+MUBEEN.
+
+Add a small navy decorative dot after the logo.
+
+RIGHT SIDE:
+
+Home
+Resume
+Bio-data
+
+DESIGN:
+
+- White background.
+- Sticky navigation.
+- Subtle bottom border.
+- Maximum content width around 1200px.
+- Proper horizontal padding.
+- Logo in bold navy.
+- Navigation text in dark grey.
+- Active page indicated by navy underline.
+- Smooth hover animation.
+- Clean spacing.
+
+MOBILE NAVIGATION:
+
+- Show MUBEEN. logo.
+- Add a hamburger menu.
+- Clicking the hamburger opens the navigation menu.
+- Clicking a navigation item navigates to the correct page.
+- Menu closes after navigation.
+- Clicking outside or pressing Escape closes the menu where practical.
+- Use smooth animation.
+- Ensure the menu does not cover important content unnecessarily.
+
+==================================================
+8. HOME PAGE – index.html
+==================================================
+
+Create a visually impressive landing page.
+
+SECTION A: HERO
+
+Use a two-column layout on desktop.
+
+LEFT COLUMN:
+
+Small uppercase label:
+
+COMPUTER SCIENCE & ENGINEERING STUDENT
+
+Main heading:
+
+Hello, I'm
+
+Mubeen Navalgund.
+
+Make my name the main visual focus.
+
+Use Playfair Display.
+
+Color:
+"Hello, I'm" in #202C3B.
+"Mubeen Navalgund." in #142D4E.
+
+Below:
+
+B.E. Computer Science and Engineering Student
+Currently Pursuing – 3rd Year
+
+Introduction:
+
+"A curious Computer Science and Engineering student interested in technology, programming, problem-solving and building useful digital solutions. I enjoy exploring new technologies, learning programming concepts and developing practical projects."
+
+Add two buttons:
+
+PRIMARY BUTTON:
+
+View My Resume →
+
+Style:
+- Navy background.
+- White text.
+- Comfortable padding.
+- Rounded corners.
+- Soft shadow.
+- Smooth hover effect.
+- Slight upward movement on hover.
+
+Action:
+Open resume page.
+
+SECONDARY BUTTON:
+
+View My Bio-data
+
+Style:
+- White background.
+- Navy border.
+- Navy text.
+- Rounded corners.
+- Smooth hover effect.
+
+Action:
+Open Bio-data page.
+
+RIGHT COLUMN:
+
+Create an elegant academic profile card.
+
+Card design:
+
+- White background.
+- Rounded corners.
+- Thin light border.
+- Soft shadow.
+- Proper internal padding.
+- Balanced vertical spacing.
+
+At the top create a circular initials logo:
+
+MN
+
+Use:
+Light blue circular background.
+Navy blue initials.
+
+Below:
+
+CURRENTLY PURSUING
+
+B.E. in Computer Science & Engineering
+
+Jain College of Engineering & Technology
+
+Currently in 3rd Year
+
+Add a subtle horizontal divider.
+
+At the bottom:
+
+LEARNING • CREATING • IMPROVING
+
+Add a very subtle decorative shape behind the card using light blue.
+
+Do not use fake profile photographs.
+
+Do not use another person's identity or initials.
+
+SECTION B: ABOUT ME
+
+Small label:
+
+GET TO KNOW ME
+
+Heading:
+
+Curiosity drives my learning.
+
+Description:
+
+"I am a third-year Computer Science and Engineering student interested in technology and software development. I enjoy improving my programming knowledge, exploring new ideas and working on practical projects."
+
+Create three elegant cards.
+
+CARD 1:
+
+Academic Journey
+
+B.E. Computer Science and Engineering.
+
+Currently pursuing 3rd Year.
+
+CARD 2:
+
+Technical Interests
+
+Programming.
+Web Development.
+Problem Solving.
+
+CARD 3:
+
+Personal Interests
+
+Reading.
+Sports.
+Music.
+
+Use:
+- Simple icons.
+- Navy icon containers.
+- Light background.
+- Consistent card heights.
+- Subtle shadows.
+- Smooth hover effects.
+
+SECTION C: SELECTED PROJECTS
+
+Heading:
+
+Selected Projects
+
+Subtitle:
+
+Ideas and practical projects I've explored.
+
+Create two professional project cards.
+
+PROJECT 01:
+
+Scheme Saathi
+
+Government Schemes and Services Assistant.
+
+Description:
+
+A web-based assistant designed to help users discover Indian government schemes and services, understand scheme information and explore relevant eligibility and application details.
+
+PROJECT 02:
+
+Event Management System
+
+Description:
+
+A software project focused on organizing event-related information and managing event activities.
+
+Design:
+- Project numbering.
+- Navy category label.
+- White card.
+- Clean descriptions.
+- Subtle border.
+- Soft shadow.
+- Hover transition.
+
+Do not invent project screenshots or technologies.
+
+SECTION D: TECHNICAL SKILLS
+
+Heading:
+
+Technologies & Skills
+
+Subtitle:
+
+Technical concepts and tools I am learning and exploring.
+
+Create skill groups.
+
+PROGRAMMING:
+C, C++, Python, Java.
+
+WEB TECHNOLOGIES:
+HTML, CSS.
+
+ADDITIONAL:
+Data Structures and Algorithms, MS Excel.
+
+Use attractive pill-shaped skill tags.
+
+Do not add fake progress bars.
+
+Do not add fake proficiency percentages.
+
+SECTION E: CONTACT
+
+Heading:
+
+Let's Connect.
+
+Description:
+
+Interested in connecting, discussing technology or exploring opportunities? Feel free to contact me.
+
+Create two contact cards:
+
+Email:
+navalgundmubeen@gmail.com
+
+Phone:
+7349850601
+
+Use appropriate email and telephone links.
+
+SECTION F: FOOTER
+
+MUBEEN.
+
+Mubeen Navalgund.
+
+B.E. Computer Science and Engineering Student.
+
+Dharwad, Karnataka, India.
+
+Copyright © 2026 Mubeen Navalgund. All Rights Reserved.
+
+Add navigation links.
+
+Keep the footer minimal.
+
+==================================================
+9. RESUME PAGE – resume.html
+==================================================
+
+IMPORTANT:
+
+The Resume is a separate professional document.
+
+It must contain ONLY professional resume content.
+
+DO NOT copy the entire Bio-data into the Resume.
+
+Create a high-quality fresher resume.
+
+RESUME HEADER:
+
+MUBEEN NAVALGUND
+
+B.E. Computer Science and Engineering Student
+
+Dharwad, Karnataka, India
+
+Email: navalgundmubeen@gmail.com
+
+Phone: 7349850601
+
+Add a subtle navy divider below the header.
+
+SECTION 1: CAREER OBJECTIVE
+
+"Motivated third-year Computer Science and Engineering student seeking opportunities to apply my programming knowledge, technical skills and problem-solving abilities. Interested in learning new technologies, developing practical software applications and gaining professional experience while contributing to meaningful projects."
+
+SECTION 2: EDUCATIONAL QUALIFICATIONS
+
+Create a professional responsive table.
+
+Columns:
+
+Qualification | Institution | Status | Percentage / CGPA
+
+ROW 1:
+
+B.E. Computer Science and Engineering
+Jain College of Engineering & Technology
+Currently Pursuing – 3rd Year
+8.9 CGPA
+
+ROW 2:
+
+PUC
+Kittle College
+Completed
+90%
+
+ROW 3:
+
+SSLC
+S.G.R.V. School
+Completed
+96%
+
+Table design:
+
+- Navy blue column headings.
+- White background.
+- Light alternate row background.
+- Thin separators.
+- Proper cell padding.
+- Clear typography.
+- Responsive on mobile.
+
+SECTION 3: TECHNICAL SKILLS
+
+PROGRAMMING LANGUAGES:
+
+C
+C++
+Python
+Java
+
+WEB TECHNOLOGIES:
+
+HTML
+CSS
+
+ADDITIONAL TECHNICAL KNOWLEDGE:
+
+Data Structures and Algorithms.
+MS Excel.
+
+Use modern skill tags.
+
+SECTION 4: PROJECTS
+
+PROJECT 1:
+
+Scheme Saathi – Government Schemes and Services Assistant.
+
+Description:
+
+A web-based assistant designed to help users discover Indian government schemes and services, understand scheme information and explore relevant eligibility and application details.
+
+PROJECT 2:
+
+Event Management System.
+
+Description:
+
+A software project focused on organizing event-related information and managing event activities.
+
+SECTION 5: PROFESSIONAL INTERESTS
+
+Programming.
+Technology.
+Problem Solving.
+Software Development.
+
+SECTION 6: CONTACT INFORMATION
+
+Email: navalgundmubeen@gmail.com
+
+Phone: 7349850601
+
+Location: Dharwad, Karnataka, India.
+
+RESUME ACTION BUTTONS:
+
+1. Print Resume.
+2. Save Resume as PDF.
+
+Use browser print functionality.
+
+When printed, only Resume content must appear.
+
+RESUME MUST NOT CONTAIN:
+
+- Date of birth.
+- Gender.
+- Nationality.
+- Full residential address.
+- Personal hobbies section.
+- Bio-data declaration.
+- Bio-data signature.
+- Bio-data-specific personal details table.
+
+Keep professional resume content separate.
+
+==================================================
+10. BIO-DATA PAGE – biodata.html
+==================================================
+
+THIS IS A STRICTLY SEPARATE DOCUMENT.
+
+The Bio-data must contain ONLY personal information.
+
+Do not copy Resume sections into the Bio-data.
+
+PAGE TITLE:
+
+BIO-DATA
+
+SUBTITLE:
+
+MUBEEN NAVALGUND
+
+SECTION: PERSONAL DETAILS
+
+Display a formal two-column information table.
+
+Name:
+Mubeen Navalgund
+
+Date of Birth:
+07 August 2005
+
+Gender:
+Female
+
+Nationality:
+Indian
+
+Languages Known:
+English, Hindi, Kannada
+
+Qualification:
+B.E. Computer Science and Engineering (Pursuing)
+
+Hobbies:
+Reading, Sports, Programming, Listening to Music
+
+Address:
+Uppin Betageri, Taluk Dharwad, Karnataka
+
+Email:
+navalgundmubeen@gmail.com
+
+Phone:
+7349850601
+
+BIO-DATA TABLE DESIGN:
+
+- Two-column layout.
+- Labels in light blue backgrounds.
+- Values in white backgrounds.
+- Navy blue labels.
+- Proper spacing.
+- Thin separators.
+- Rounded outer border.
+- Readable text.
+- Mobile-friendly layout.
+
+SECTION: DECLARATION
+
+Display:
+
+"I hereby declare that the information provided above is true and correct to the best of my knowledge and belief."
+
+Use a subtle bordered declaration section.
+
+SECTION: PLACE AND DATE
+
+Place: Dharwad
+
+Date: ______________________
+
+Do not invent the date.
+
+SECTION: SIGNATURE
+
+Signature:
+
+Mubeen Navalgund
+
+Leave sufficient empty space above the signature name for a handwritten signature after printing.
+
+BIO-DATA ACTION BUTTONS:
+
+1. Print Bio-data.
+2. Save Bio-data as PDF.
+
+Use browser print functionality.
+
+BIO-DATA MUST NOT CONTAIN:
+
+- Detailed education qualification table.
+- PUC percentage.
+- SSLC percentage.
+- CGPA.
+- Technical skills.
+- Programming languages as a technical skills section.
+- Projects.
+- Career objective.
+- Professional interests.
+- Resume summary.
+
+Only the one-line qualification field is allowed.
+
+The Bio-data must remain a simple formal personal document.
+
+==================================================
+11. STRICT CONTENT SEPARATION VALIDATION
+==================================================
+
+Before completing the project, verify these requirements.
+
+RESUME:
+
+Contains:
+- Career objective.
+- Educational qualification table.
+- CGPA.
+- PUC percentage.
+- SSLC percentage.
+- Technical skills.
+- Projects.
+- Professional interests.
+- Professional contact information.
+
+BIO-DATA:
+
+Contains:
+- Name.
+- Date of birth.
+- Gender.
+- Nationality.
+- Languages.
+- One-line qualification.
+- Hobbies.
+- Address.
+- Email.
+- Phone.
+- Declaration.
+- Place.
+- Date.
+- Signature.
+
+Never combine the content.
+
+If a user clicks Resume, display Resume only.
+
+If a user clicks Bio-data, display Bio-data only.
+
+==================================================
+12. COMPLETE MOBILE-FIRST RESPONSIVE DESIGN
+==================================================
+
+This requirement is extremely important.
+
+The website must be beautiful on mobile phones, not just desktops.
+
+Use mobile-first CSS.
+
+Test these viewport widths:
+
+360px
+375px
+390px
+430px
+768px
+1024px
+1280px
+1440px
+
+DESKTOP:
+
+- Horizontal navbar.
+- Two-column hero.
+- Large typography.
+- Academic profile card on the right.
+- Multi-column cards.
+- Proper page width.
+- Generous whitespace.
+
+TABLET:
+
+- Adjust hero columns.
+- Reduce typography.
+- Maintain comfortable spacing.
+- Use suitable card grids.
+
+MOBILE:
+
+- Single-column hero.
+- Introduction first.
+- Profile card below introduction.
+- Full-width or balanced action buttons.
+- Compact navigation.
+- Hamburger menu.
+- One-column content cards.
+- Responsive skill tags.
+- Readable project cards.
+- Properly wrapped paragraphs.
+- Comfortable spacing.
+- Touch-friendly controls.
+
+MOBILE RESUME:
+
+- Stack sections vertically.
+- Convert education table into responsive cards if necessary.
+- Ensure all values remain readable.
+- Prevent horizontal overflow.
+- Make print button easy to access.
+
+MOBILE BIO-DATA:
+
+- Personal detail table must adapt to small screens.
+- Long email and address must wrap.
+- Declaration must fit within the viewport.
+- Signature area must be aligned.
+- Do not allow horizontal scrolling.
+
+TECHNICAL CSS REQUIREMENTS:
+
+Use:
+
+- CSS Grid.
+- Flexbox.
+- clamp().
+- max-width.
+- minmax().
+- box-sizing: border-box.
+- Appropriate media queries.
+- Responsive spacing.
+- Fluid typography.
+
+Add:
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+Prevent horizontal scrolling.
+
+Use semantic HTML.
+
+Ensure buttons and links have sufficient touch area.
+
+==================================================
+13. COMPLETE CSS DESIGN SYSTEM
+==================================================
+
+Create or organize CSS with reusable variables.
+
+Example:
+
+:root {
+    --navy: #142D4E;
+    --navy-dark: #10243D;
+    --navy-secondary: #1D3C63;
+    --blue-accent: #365F91;
+    --blue-light: #EAF0F6;
+    --background: #FFFFFF;
+    --background-soft: #F3F6F8;
+    --text-primary: #202C3B;
+    --text-secondary: #687584;
+    --border: #E1E7ED;
+    --gold-accent: #B99B68;
+
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    --container-width: 1200px;
+
+    --radius-small: 8px;
+    --radius-medium: 14px;
+    --radius-large: 22px;
+
+    --shadow-soft: 0 8px 30px rgba(20, 45, 78, 0.06);
+
+    --transition: 0.3s ease;
+}
+
+Organize CSS into sections:
+
+1. Global reset.
+2. CSS variables.
+3. Typography.
+4. Navigation.
+5. Hero.
+6. Profile card.
+7. About section.
+8. Project cards.
+9. Skills.
+10. Contact.
+11. Footer.
+12. Resume.
+13. Bio-data.
+14. Buttons.
+15. Animations.
+16. Responsive styles.
+17. Print styles.
+
+Use consistent spacing and design tokens.
+
+Avoid repeated unnecessary CSS.
+
+Do not add conflicting style rules.
+
+==================================================
+14. ANIMATIONS AND INTERACTIONS
+==================================================
+
+Implement polished micro-interactions.
+
+NAVIGATION:
+- Active link underline.
+- Hover color change.
+- Smooth mobile menu.
+- Sticky navbar.
+
+BUTTONS:
+- Slight hover lift.
+- Smooth background transition.
+- Subtle shadow.
+- Visible focus states.
+
+CARDS:
+- Gentle upward movement.
+- Shadow transition.
+- No excessive zoom.
+
+SECTIONS:
+- Gentle fade-in.
+- Subtle scroll reveal.
+- Smooth scrolling.
+
+Keep the animations professional and lightweight.
+
+Respect prefers-reduced-motion.
+
+Do not introduce animation libraries unless already used and necessary.
+
+==================================================
+15. PRINT AND PDF FUNCTIONALITY
+==================================================
+
+Implement independent printing.
+
+RESUME:
+
+Print Resume button must print only the resume document.
+
+BIO-DATA:
+
+Print Bio-data button must print only the bio-data document.
+
+Use:
+
+window.print();
+
+Implement proper CSS:
+
+@media print
+
+PRINT RULES:
+
+- Hide navbar.
+- Hide navigation links.
+- Hide buttons.
+- Hide footer.
+- Hide unrelated website sections.
+- Hide unnecessary shadows.
+- White page background.
+- Dark readable text.
+- Professional A4 layout.
+- Proper margins.
+- Avoid breaking tables.
+- Preserve section headings.
+- Preserve declaration.
+- Preserve signature space.
+
+Use appropriate page-break rules.
+
+Each page must independently support Save as PDF through the browser print dialog.
+
+Do not create a combined PDF.
+
+==================================================
+16. ACCESSIBILITY AND QUALITY
+==================================================
+
+Implement:
+
+- Semantic HTML.
+- Accessible button labels.
+- Keyboard navigation.
+- Visible focus indicators.
+- Proper heading hierarchy.
+- Descriptive link text.
+- Good color contrast.
+- Alt text for meaningful images.
+- Reduced motion support.
+
+Do not add meaningless images.
+
+Do not use fake testimonials.
+
+Do not add invented achievements.
+
+==================================================
+17. TECHNICAL IMPLEMENTATION
+==================================================
+
+Inspect my existing framework and project structure.
+
+If it is plain HTML/CSS/JavaScript:
+
+Use:
+- index.html
+- resume.html
+- biodata.html
+- style.css
+- script.js
+
+If it is React/Vite:
+
+Keep React/Vite and implement the corresponding components and routes using the existing structure.
+
+Do not convert frameworks unnecessarily.
+
+Do not create duplicate index files or duplicate CSS files.
+
+Make sure the project can run locally.
+
+Make sure the project can be deployed using GitHub and Vercel.
+
+If React Router is already installed, use it appropriately.
+
+If using a static multi-page website, ensure direct navigation to resume.html and biodata.html works.
+
+If using client-side routing, configure deployment rewrites so direct page refreshes work.
+
+Check asset paths.
+
+Check relative links.
+
+Check missing files.
+
+Check console errors.
+
+==================================================
+18. FINAL TESTING
+==================================================
+
+Test the entire website.
+
+HOME:
+
+- Correct name.
+- Correct introduction.
+- Premium light theme.
+- Navy-blue color system.
+- Academic card.
+- About section.
+- Projects section.
+- Technical skills.
+- Contact section.
+- Functional buttons.
+
+RESUME:
+
+- All education information correct.
+- CGPA correct.
+- PUC percentage correct.
+- SSLC percentage correct.
+- Technical skills correct.
+- Projects correct.
+- Professional appearance.
+- No Bio-data declaration.
+- No personal Bio-data table.
+- Print works.
+
+BIO-DATA:
+
+- All personal details correct.
+- Date of birth correct.
+- Gender correct.
+- Nationality correct.
+- Languages correct.
+- Qualification correct.
+- Hobbies correct.
+- Address correct.
+- Email correct.
+- Phone correct.
+- Declaration correct.
+- Place and date sections present.
+- Signature space present.
+- No detailed educational table.
+- No CGPA.
+- No marks.
+- No technical skills section.
+- No projects.
+- No career objective.
+- Print works.
+
+RESPONSIVENESS:
+
+Test:
+360px
+375px
+390px
+430px
+768px
+1024px
+1440px
+
+Check:
+- No horizontal scrolling.
+- No overlapping elements.
+- No broken navigation.
+- No text overflow.
+- Buttons work.
+- Mobile menu works.
+- Tables are readable.
+- Print layout is correct.
+
+==================================================
+19. FINAL IMPLEMENTATION INSTRUCTIONS
+==================================================
+
+Now execute the complete redesign.
+
+Do not just provide suggestions or code snippets.
+
+Actually modify my existing project files.
+
+Do not ask me to create a new project.
+
+Do not replace working functionality unnecessarily.
+
+Do not mix Resume and Bio-data.
+
+Do not invent any personal information.
+
+The final website must be:
+
+- Visually beautiful.
+- Premium and professional.
+- Modern and minimal.
+- Light theme with navy blue.
+- Fully responsive.
+- Mobile-first.
+- Easy to navigate.
+- Accessible.
+- Fully functional.
+- Print-ready.
+- PDF-ready.
+- GitHub-ready.
+- Vercel-ready.
+
+After completing the implementation:
+
+1. List all files modified.
+2. Explain the main UI/UX improvements.
+3. Confirm Resume and Bio-data are separate.
+4. Confirm mobile responsiveness.
+5. Confirm print functionality.
+6. Confirm that all navigation works.
+7. Tell me how to run and preview the website locally.
+
+MY FINAL EXPECTATION:
+
+When someone opens my website, it should immediately look like a premium personal portfolio belonging to Mubeen Navalgund.
+
+Make the design memorable through beautiful typography, excellent spacing, elegant navy-blue styling, polished cards and a genuinely responsive mobile experience.
+
+IMPLEMENT EVERYTHING NOW.

@@ -1,0 +1,361 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   1. CSS DESIGN VARIABLES
+   ========================================================================== */
+:root {
+  --navy: #142D4E;
+  --navy-dark: #10243D;
+  --navy-secondary: #1D3C63;
+  --blue-accent: #365F91;
+  --blue-muted: #6D89A6;
+  --blue-light: #EAF0F6;
+  --background: #FFFFFF;
+  --background-hero: #F3F6F8;
+  --background-soft: #F7F9FB;
+  --text-primary: #202C3B;
+  --text-secondary: #687584;
+  --text-muted: #8995A3;
+  --border: #E1E7ED;
+  --gold-accent: #B99B68;
+
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --container-width: 1200px;
+
+  --radius-small: 8px;
+  --radius-medium: 14px;
+  --radius-large: 22px;
+
+  --shadow-soft: 0 8px 30px rgba(20, 45, 78, 0.06);
+  --shadow-hover: 0 14px 36px rgba(20, 45, 78, 0.1);
+
+  --transition: 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   2. GLOBAL RESET & BASE
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   3. TYPOGRAPHY
+   ========================================================================== */
+.font-serif-display {
+  font-family: var(--font-heading);
+}
+
+.font-sans-body {
+  font-family: var(--font-body);
+}
+
+.hero-headline {
+  font-family: var(--font-heading);
+  font-size: clamp(2.35rem, 4.6vw, 3.85rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.page-title-serif {
+  font-family: var(--font-heading);
+  font-size: clamp(1.85rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.section-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(1.7rem, 2.8vw, 2.35rem);
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+  color: var(--navy);
+  text-wrap: balance;
+}
+
+.kicker-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--blue-accent);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   4. LAYOUT CONTAINER & SURFACES
+   ========================================================================== */
+.site-container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.125rem, 4vw, 2.5rem);
+  padding-right: clamp(1.125rem, 4vw, 2.5rem);
+}
+
+.surface-card {
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+  box-shadow: var(--shadow-soft);
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.surface-card-interactive:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: #CBD6E2;
+}
+
+/* ==========================================================================
+   5. BUTTONS & NAVIGATION INTERACTIONS
+   ========================================================================== */
+.btn-primary-navy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--navy);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border-radius: var(--radius-small);
+  border: 1px solid var(--navy);
+  box-shadow: 0 6px 18px rgba(20, 45, 78, 0.16);
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform var(--transition), background-color var(--transition), box-shadow var(--transition);
+}
+
+.btn-primary-navy:hover {
+  background-color: var(--navy-dark);
+  border-color: var(--navy-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(16, 36, 61, 0.22);
+}
+
+.btn-primary-navy:active {
+  transform: translateY(0);
+}
+
+.btn-secondary-navy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--background);
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.9375rem;
+  border-radius: var(--radius-small);
+  border: 1.5px solid var(--navy);
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform var(--transition), background-color var(--transition), color var(--transition), box-shadow var(--transition);
+}
+
+.btn-secondary-navy:hover {
+  background-color: var(--blue-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(20, 45, 78, 0.08);
+}
+
+.btn-secondary-navy:active {
+  transform: translateY(0);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--blue-accent);
+  outline-offset: 3px;
+}
+
+.nav-link-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0.25rem 0.125rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  transition: color var(--transition);
+}
+
+.nav-link-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 2px;
+  background-color: var(--navy);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform var(--transition);
+  border-radius: 1px;
+}
+
+.nav-link-item:hover {
+  color: var(--navy);
+}
+
+.nav-link-item:hover::after,
+.nav-link-item[data-active='true']::after {
+  transform: scaleX(1);
+}
+
+.nav-link-item[data-active='true'] {
+  color: var(--navy);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   6. ANIMATIONS & REDUCED MOTION
+   ========================================================================== */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: fadeSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================================================
+   7. PRINT STYLES (INDEPENDENT A4 RESUME & BIO-DATA PRINTING)
+   ========================================================================== */
+@page {
+  size: A4 portrait;
+  margin: 14mm 15mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #FFFFFF !important;
+    color: #202C3B !important;
+    font-size: 11pt;
+    line-height: 1.5;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+
+  .no-print,
+  header,
+  nav,
+  footer {
+    display: none !important;
+  }
+
+  .print-page-wrapper {
+    background: #FFFFFF !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: auto !important;
+  }
+
+  .print-document-sheet {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: #FFFFFF !important;
+  }
+
+  .print-avoid-break {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-heading {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  table,
+  tr,
+  td,
+  th {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Ensure Bio-data desktop table renders cleanly even if viewport was narrow */
+  .print-table-force {
+    display: table !important;
+  }
+
+  .print-mobile-only {
+    display: none !important;
+  }
+
+  .print-desktop-only {
+    display: block !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
