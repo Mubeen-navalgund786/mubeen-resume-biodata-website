@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/mubeen-resume-biodata-website/',
     plugins: [
       react(),
       tailwindcss(),
